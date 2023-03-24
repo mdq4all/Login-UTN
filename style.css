@@ -1,0 +1,60 @@
+.fondo {
+    background: url("./img/ondas.svg")no-repeat;
+    background-position: bottom;
+    background-color: rgb(42, 18, 65);
+    height: 100vh;
+    width: 100%
+}
+.imagen-container {
+    position: relative;
+    padding: 0;
+}
+.imagen-container > img {
+    width: 100%;
+} 
+.imagen-container > h2 {
+    font-family: 'Syne', sans-serif;
+    font-size: 5rem;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.pantalla-login {
+    background-color: #fff;
+}
+.pantalla-login > h3 {
+    font-size: 2rem;
+    font-weight: 800;
+    margin: 0 1rem 3rem;
+}
+.input-container > input {
+    border-radius: 20px;
+    margin: 0 1rem 1rem;
+    height: 2.5rem;
+    border: 1px solid #c8bbbbc7;
+    padding: 0 45px;
+    width: 90%;
+}
+.input-container > img {
+    position: absolute;
+    margin-left:35px;
+    margin-top: 12px;
+}
+#recover-pass {
+    font-size: 12px;
+    text-align: right;
+    margin-right: 1.5rem;
+    color: rgba(214, 20, 198, 0.914);
+    text-decoration: underline;
+    cursor: pointer;
+}
+.pantalla-login > button {
+    background-color:rgba(214, 20, 198, 0.914);
+    border: none;
+    border-radius: 20px;
+    margin: 3rem 1rem;
+    color: #fff;
+    padding: 10px
+}
